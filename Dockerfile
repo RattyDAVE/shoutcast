@@ -1,7 +1,5 @@
 FROM debian:stable
 
-LABEL maintainer Knut Ahlers <knut@ahlers.me>
-
 RUN set -ex \
  && mkdir -p \
       /opt/shoutcast \
