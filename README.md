@@ -17,5 +17,5 @@ This repository contains **Dockerfile** of [ShoutCast DNAS](http://www.shoutcast
 To launch it, just type:
 
 ```
-docker run -d -p 8001:8001 -p 8002:8002 luzifer/shoutcast
+docker run -d -p 8001:8001 -p 8002:8002 rattydave/shoutcast
 ```
