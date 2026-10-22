@@ -1,4 +1,11 @@
-FROM debian:stable
+#FROM debian:stable
+
+FROM alpine:3.22
+
+RUN apk add --no-cache \
+    libstdc++ \
+    gcompat \
+    bash
 
 RUN set -ex \
  && mkdir -p \
